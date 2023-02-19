@@ -68,11 +68,11 @@ html {
             }
 
             &[type=text] {
-                background-image: url('/images/user_pic.svg');
+                background-image: url('/images/user_pic-gray.svg');
             }
 
             &[type=password] {
-                background-image: url('/images/user_pic-gray.svg');
+                background-image: url('/images/pass_pic.svg');
             }
         }
     }

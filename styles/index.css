@@ -98,10 +98,10 @@ html {
   color: rgba(0, 0, 0, 0.4);
 }
 .form-field input[type=text] {
-  background-image: url("/images/user_pic.svg");
+  background-image: url("/images/user_pic-gray.svg");
 }
 .form-field input[type=password] {
-  background-image: url("/images/user_pic-gray.svg");
+  background-image: url("/images/pass_pic.svg");
 }
 .form-head {
   -webkit-box-pack: justify;
