@@ -49,3 +49,9 @@ html {
   color: #42505C;
   font-size: 5.4rem;
 }
+
+.description {
+  font-weight: 400;
+  color: #404040;
+  font-size: 1.4rem;
+}
