@@ -16,10 +16,16 @@ html {
 
 .main {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: max-content;
     background-color: #E5E5E5;
     background-image: url('/images/login.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
+}
+
+.login {
+    background-color: #ffffff;
+    padding: 10rem 9rem 4rem 9rem;
 }
