@@ -13,3 +13,13 @@ html {
     display: flex;
     flex-direction: column;
 }
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E5E5;
+    background-image: url('/images/login.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
