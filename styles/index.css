@@ -101,7 +101,7 @@ html {
   background-image: url("/images/user_pic.svg");
 }
 .form-field input[type=password] {
-  background-image: url("/images/pass_pic.svg");
+  background-image: url("/images/user_pic-gray.svg");
 }
 .form-head {
   -webkit-box-pack: justify;
