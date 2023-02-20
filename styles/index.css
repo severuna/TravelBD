@@ -206,6 +206,9 @@ a {
           justify-content: space-between;
   gap: 5rem;
 }
+.register .form-info {
+  gap: 2rem;
+}
 .register .form-info label {
   font-size: 1.4rem;
   color: #333333;
@@ -213,6 +216,10 @@ a {
 .register .form-info label::after {
   content: url("/images/answer.svg");
   float: right;
+}
+.register .form-info label span {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.34);
 }
 .register .form-info input {
   width: 30rem;

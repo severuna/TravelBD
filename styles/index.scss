@@ -172,6 +172,7 @@ a {
         }
 
         &-info {
+            gap: 2rem;
 
             label {
                 font-size: 1.4rem;
@@ -180,6 +181,11 @@ a {
                 &::after {
                     content: url('/images/answer.svg');
                     float: right;
+                }
+
+                & span {
+                    font-size: 1.2rem;
+                    color: rgba($color: #000000, $alpha: 0.34);
                 }
             }
 
