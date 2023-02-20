@@ -25,7 +25,7 @@ a {
 }
 
 .main {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     height: max-content;
     background-color: #E5E5E5;
@@ -38,7 +38,7 @@ a {
 .login {
     background-color: #ffffff;
     gap: 2rem;
-    padding: 10rem 9rem 4rem 9rem;
+    padding: 9rem;
     width: 48rem;
 }
 
