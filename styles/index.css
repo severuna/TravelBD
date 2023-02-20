@@ -224,6 +224,34 @@ a {
 .register .form-info input {
   width: 30rem;
 }
+.register .form-info .employees {
+  gap: 1rem;
+  width: 30rem;
+}
+.register .form-info .employees input {
+  display: none;
+}
+.register .form-info .employees label {
+  width: 6rem;
+  height: 5rem;
+  padding: 1.5rem 0;
+  text-align: center;
+  border: 1px solid #D1D1D1;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.register .form-info .employees label::after {
+  content: none;
+}
+.register .form-info .employees input:checked + label {
+  color: #4743E0;
+  border: 1px solid #4743E0;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 .register .form-footer {
   padding: 4rem 0;
 }
