@@ -142,14 +142,15 @@ a {
     width: 85rem;
     background-color: #FFFFFF;
     gap: 2rem;
-    padding: 9rem;
+    padding: 10rem;
     min-height: 100vh;
     height: max-content;
     position: relative;
 
     .link {
         position: absolute;
-        right: 9rem;
+        top: 3rem;
+        right: 10rem;
 
         &::after {
             content: url('/images/user_pic.svg');

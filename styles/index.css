@@ -174,7 +174,7 @@ a {
   width: 85rem;
   background-color: #FFFFFF;
   gap: 2rem;
-  padding: 9rem;
+  padding: 10rem;
   min-height: 100vh;
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -183,7 +183,8 @@ a {
 }
 .register .link {
   position: absolute;
-  right: 9rem;
+  top: 3rem;
+  right: 10rem;
 }
 .register .link::after {
   content: url("/images/user_pic.svg");
