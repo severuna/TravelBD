@@ -16,6 +16,41 @@
                 <h1 class="title">Input your information</h1>
                 <p class="description">We need you to help us with some basic information for your account creation. Here are our terms and conditins. Please read them carefully. We are GDRP compliiant</p>
             </div>
+            <form class="form">
+                <div class="form-field flex-row">
+                    <div class="form-info">
+                        <label for="name">First name</label>
+                        <input type="text" id="name" placeholder="John">
+                    </div>
+                    <div class="form-info">
+                        <label for="surname">Last name</label>
+                        <input type="text" id="surname" placeholder="Smit">
+                    </div>
+                    <div class="form-info">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" placeholder="John Smit">
+                    </div>
+                    <div class="form-info">
+                        <label for="mail">Work email</label>
+                        <input type="email" id="mail" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-info">
+                        <label>Number of employees <span> (optional)</span></label>
+                        <input type="radio" id="twenty" name="drone" value="twenty" checked>
+                        <label for="twenty">0 - 20</label>
+                        <input type="radio" id="fifty" name="drone" value="fifty" checked>
+                        <label for="fifty">20 - 50</label>
+                        <input type="radio" id="hundred" name="drone" value="hundred" checked>
+                        <label for="hundred">50 - 100</label>
+                        <input type="radio" id="more" name="drone" value="more" checked>
+                        <label for="more">100 - ...</label>
+                    </div>
+                    <div class="form-info">
+                        <label for="tel">Phone number <span> (optional)</span></label>
+                        <input type="tel" id="tel" placeholder="+380 00 000 000">
+                    </div>
+                </div>
+            </form>
         </section>
     </main>
 </body>
