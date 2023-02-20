@@ -223,6 +223,7 @@ a {
 }
 .register .form-info input {
   width: 30rem;
+  background-image: none;
 }
 .register .form-info .employees {
   gap: 1rem;
