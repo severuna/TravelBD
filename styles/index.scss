@@ -29,10 +29,17 @@ a {
     min-height: 100vh;
     height: max-content;
     background-color: #E5E5E5;
-    background-image: url('/images/login.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
+}
+
+.main:has(.login) {
+    background-image: url('/images/login.svg');
+}
+
+.main:has(.register) {
+    background-image: url('/images/register.svg');
 }
 
 .login {
