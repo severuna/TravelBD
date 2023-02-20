@@ -156,4 +156,10 @@ a {
             content: url('/images/user_pic.svg');
         }
     }
+
+    &-head {
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
 }

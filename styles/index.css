@@ -189,3 +189,12 @@ a {
 .register .link::after {
   content: url("/images/user_pic.svg");
 }
+.register-head {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+}
