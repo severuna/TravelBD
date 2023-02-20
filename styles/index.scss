@@ -145,4 +145,14 @@ a {
     padding: 9rem;
     min-height: 100vh;
     height: max-content;
+    position: relative;
+
+    .link {
+        position: absolute;
+        right: 9rem;
+
+        &::after {
+            content: url('/images/user_pic.svg');
+        }
+    }
 }

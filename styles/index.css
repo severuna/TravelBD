@@ -179,4 +179,12 @@ a {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+  position: relative;
+}
+.register .link {
+  position: absolute;
+  right: 9rem;
+}
+.register .link::after {
+  content: url("/images/user_pic.svg");
 }
