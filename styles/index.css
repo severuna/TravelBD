@@ -169,3 +169,14 @@ a {
   font-weight: 400;
   color: rgba(0, 0, 0, 0.3);
 }
+
+.register {
+  width: 85rem;
+  background-color: #FFFFFF;
+  gap: 2rem;
+  padding: 9rem;
+  min-height: 100vh;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
